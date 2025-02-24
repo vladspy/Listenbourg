@@ -1,0 +1,210 @@
+/* -------------------
+   GLOBAL RESET & FONT
+--------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #000; /* Black text for most content */
+  background-color: #fff; /* White background */
+}
+
+/* -------------
+   NAVIGATION BAR
+-------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to bottom, #d2c174, #bfa554); /* Gold gradient */
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-flag {
+  width: 40px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-right a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.nav-right a:hover {
+  text-decoration: underline;
+}
+
+/* -------------
+   HERO SECTION
+-------------- */
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* The heading above the hero image (80% width, centered, bigger font) */
+.hero-heading {
+  width: 80%;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+  font-size: 3rem; /* scaled up font size */
+}
+
+/* The hero image (50% width, centered) */
+.hero-image {
+  width: 50%;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+}
+
+/* Propaganda text (80% width, bigger font, below image) */
+.hero-propaganda {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 1.5rem; /* scaled up font size */
+  text-align: center;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+/* -------------
+   MAIN CONTENT
+-------------- */
+main {
+  /* match the 80% hero width, center it */
+  width: 80%;
+  margin: 2rem auto;
+}
+
+/* INTRO SECTION */
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Larger heading for intro (to match hero scale) */
+.intro h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Increase font size for any paragraphs inside .intro, if desired */
+.intro p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+/* Audio control margin */
+.intro-audio {
+  margin-top: 1rem;
+}
+
+/* Transcript matches the hero-propaganda style */
+.audio-transcript p {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 1.5rem; 
+  text-align: center;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+/* -------------
+   DESCRIPTION
+-------------- */
+/* Center text, bigger font */
+.description {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-left: 4px solid #e01f1f; /* Red accent on the left */
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Larger heading in description */
+.description h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Larger paragraphs in description */
+.description p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* -------------
+   RULERS SECTION
+-------------- */
+.rulers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.ruler {
+  flex: 1 1 300px;
+  max-width: 400px;
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Larger heading for each ruler */
+.ruler h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ruler img.flag {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+/* Larger paragraphs for ruler descriptions */
+.ruler p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+/* IMPORTANT TEXT: in red */
+.important-text {
+  color: #e01f1f;
+}
+
+/* -------------
+   FOOTER
+-------------- */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(to top, #d2c174, #bfa554); /* Gold gradient */
+  color: #fff;
+}
